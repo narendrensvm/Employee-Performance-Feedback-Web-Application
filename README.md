@@ -1,101 +1,118 @@
-Employee Performance Feedback Application
-This project is a simple web application where employees can give feedback on other employees as part of a performance review.
-The goal of this assignment is to show basic full-stack understanding, API usage, and simple UI flow.
+# Employee Performance Feedback Application
 
-This is a partial implementation and focuses on clarity and working code rather than completeness.
+## Overview
+This project is a simple full-stack web application that allows employees to provide performance feedback on other employees as part of a review process.  
 
-Features Implemented
+The main goal is to demonstrate a basic understanding of **frontend and backend integration**, **API usage**, and a clear application flow.  
 
-**Admin View **
-  View all employees
-  Create performance reviews
-  Assign reviewers to an employee
-  View all reviews
-  View feedback submitted by employees
+This is a partial implementation focusing on clarity, logic, and working functionality rather than advanced UI or complete real-world features.
 
-**Employee View**
+---
 
-  Simple employee login (dropdown based)
-  View assigned performance reviews
-  Submit feedback for assigned reviews
+## Features Implemented
 
-**What Is Not Implemented (By Design)**
+### Admin View
+- View the list of all employees  
+- Create performance reviews  
+- Assign reviewers to an employee  
+- View all created reviews  
+- View feedback submitted by employees  
 
-  Authentication with username/password
-  Database (data is stored in memory)
-  Role-based access control
-  Styling and UI polishing
+### Employee View
+- Simple login using an employee selection dropdown  
+- View performance reviews assigned to the logged-in employee  
+- Submit feedback for assigned reviews  
 
-These were intentionally skipped to keep the project simple and easy to understand.
+---
 
-**Technologies Used**
-**Frontend**
+## Technologies Used
 
-  React.js
-  React Router
-  Fetch API
-  Plain CSS
+### Frontend
+- React.js  
+- React Router  
+- Fetch API  
+- Plain CSS  
 
-**Backend**
+### Backend
+- Node.js  
+- Express.js  
 
-  Node.js
-  Express.js
-  In-memory JavaScript objects
+---
 
-**How the Application Works (Flow)**
-**Admin Flow**
+## Application Flow
 
-  Admin opens the Admin Reviews page
-  Selects an employee to be reviewed
-  Assigns reviewers from the employee list
-  Creates a performance review
-  Can see all reviews and feedback in one place
+### Admin Flow
+1. Open the **Admin Reviews** page  
+2. Select an employee to be reviewed  
+3. Assign reviewers from the employee list  
+4. Create a performance review  
+5. View all reviews and feedback submitted  
 
-**Employee Flow**
+### Employee Flow
+1. Open the **Login** page  
+2. Select name from dropdown list  
+3. View assigned reviews  
+4. Submit feedback for each review  
 
-  Employee opens the Login page
-  Selects their name from the dropdown
-  Sees reviews assigned to them
-  Submits feedback for each review
+---
 
-**API Endpoints Implemented**
+## API Endpoints Implemented
 
-Get Employees
-  GET /employees
+- **Get Employees** <br>
+GET /employees
 
-Create Review
-  POST /reviews
+- **Assign Review**<br>
+POST /reviews
 
-Get Reviews Assigned to Employee
-  GET /reviews/assigned/:employeeId
+- **Get Reviews Assigned to an Employee**<br>
+GET /reviews/assigned/:employeeId
 
-Submit Feedback
-  POST /feedback
+- **Submit Feedback**<br>
+POST /feedback
 
-Admin – View All Reviews
-  GET /admin/reviews
+- Admin – View All Reviews<br>
+GET /admin/reviews
 
-**How to Run the Project Locally**
-Prerequisites
-  Replicating the Repository
-  Node.js (v16 or above)
-  npm install
+How to Run This Application Locally
+-----------------------------------
 
-Step 1: Run Backend
-  npm install
-  node server.js
+### Prerequisites
 
-Server will run on:http://localhost:5000
+*   Node.js (version 16 or higher)
+    
+*   npm
+    
+*   Any modern web browser
+    
 
-Step 2: Run Frontend
-  npm install
-  npm start
+### Step 1: Clone the Repository
 
-Frontend will run on: http://localhost:3000
+git clone  <br> 
+cd otp-auth-app
 
-**Assumptions Made**
+### Step 2: Run the Backend Server
 
-  Only one admin exists
-  Login is simplified using employee selection
-  Data does not persist after server restart
-  Focus is on logic and flow, not UI design`
+npm install<br>
+node server.js
+
+If the backend starts successfully, you will see:
+
+Backend running on [http://localhost:5000](http://localhost:5000)
+
+### Step 3: Run the Frontend Application
+
+Open a new terminal window and run:
+
+npm install<br>
+npm start
+
+Frontend will start at [http://localhost:3000](http://localhost:3000)
+
+---
+
+## Assumptions Made
+
+- Only one admin exists in the system  
+- Login is simplified using employee selection (no authentication)    
+
+
