@@ -87,7 +87,7 @@ How to Run This Application Locally
 
 ### Step 1: Clone the Repository
 
-git clone  <br> 
+git clone  https://github.com/narendrensvm/Employee-Performance-Feedback-Web-Application.git <br> 
 cd otp-auth-app
 
 ### Step 2: Run the Backend Server
