@@ -12,10 +12,9 @@ This is a partial implementation focusing on clarity, logic, and working functio
 ## Features Implemented
 
 ### Admin View
-- View the list of all employees  
-- Create performance reviews  
+- View the list of all employees    
 - Assign reviewers to an employee  
-- View all created reviews  
+- View all Assign reviews  
 - View feedback submitted by employees  
 
 ### Employee View
