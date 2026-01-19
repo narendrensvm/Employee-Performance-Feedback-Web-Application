@@ -44,8 +44,7 @@ This is a partial implementation focusing on clarity, logic, and working functio
 1. Open the **Admin Reviews** page  
 2. Select an employee to be reviewed  
 3. Assign reviewers from the employee list  
-4. Create a performance review  
-5. View all reviews and feedback submitted  
+4. View all reviews and feedback submitted  
 
 ### Employee Flow
 1. Open the **Login** page  
