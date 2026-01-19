@@ -114,7 +114,7 @@ Frontend will start at [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Assumptions Made
+## Assumptions
 
 - Only one admin exists in the system  
 - Login is simplified using employee selection (no authentication)    
