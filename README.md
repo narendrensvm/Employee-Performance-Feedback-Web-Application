@@ -3,10 +3,6 @@
 ## Overview
 This project is a simple full-stack web application that allows employees to provide performance feedback on other employees as part of a review process.  
 
-The main goal is to demonstrate a basic understanding of **frontend and backend integration**, **API usage**, and a clear application flow.  
-
-This is a partial implementation focusing on clarity, logic, and working functionality rather than advanced UI or complete real-world features.
-
 ---
 
 ## Features Implemented
@@ -28,9 +24,7 @@ This is a partial implementation focusing on clarity, logic, and working functio
 
 ### Frontend
 - React.js  
-- React Router  
-- Fetch API  
-- Plain CSS  
+- React Router    
 
 ### Backend
 - Node.js  
@@ -86,7 +80,7 @@ How to Run This Application Locally
     
 *   npm
     
-*   Any modern web browser
+*   Any web browser
     
 
 ### Step 1: Clone the Repository
