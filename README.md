@@ -56,14 +56,20 @@ This is a partial implementation focusing on clarity, logic, and working functio
 
 ## API Endpoints Implemented
 
+- **Add Employees** <br>
+POST /employees
+
 - **Get Employees** <br>
 GET /employees
+
+- **Delete Employees** <br>
+DELETE /employees/:id
 
 - **Assign Review**<br>
 POST /reviews
 
 - **Get Reviews Assigned to an Employee**<br>
-GET /reviews/assigned/:employeeId
+GET /reviews/assigned/:empId
 
 - **Submit Feedback**<br>
 POST /feedback
